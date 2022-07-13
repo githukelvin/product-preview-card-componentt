@@ -3,14 +3,14 @@
 
 main{
      .card{
-        width: 50%;
+        width: 55%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        height: 490px;
+        height: 460px;
         gap:2rem;
         background: $White;
         border-radius: 10px;
-        margin: 8rem auto;
+        margin: 8.5rem auto;
        .img1{
             background-image: url(../images/image-product-desktop.jpg);
             background-size: cover;
@@ -19,7 +19,7 @@ main{
        }
        .info{
         margin-top: 2rem;
-        width: 90%;
+        width: 85%;
         
 
         .head{
@@ -67,7 +67,7 @@ main{
             font-size: 1rem;
             background: $Dark-cyan;
             text-align: center;
-            margin-top: 2.5rem;
+            margin-top: 1.5rem;
             cursor: pointer;
             img{
                 margin-right: 1rem;
