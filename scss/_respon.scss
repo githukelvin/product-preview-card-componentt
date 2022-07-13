@@ -1,0 +1,34 @@
+@include mobile{
+    .container{
+        width: $width-md;
+        
+        .card{
+            width: 100%;
+            grid-template-columns: 1fr;
+            grid-template-rows: .5fr 1fr;
+            height: fit-content;
+
+            .img1{
+                background-image: url(../images/image-product-mobile.jpg);
+                border-radius: 0;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                height: 300px;
+            }
+            .info{
+                margin: 0 auto;
+                width: 85%;
+                h2 {
+                    small{
+                        left:1.2rem
+                    }
+                }
+
+                button{
+                    margin-bottom: 3rem;
+                }
+            }
+        }
+        
+    }
+}
