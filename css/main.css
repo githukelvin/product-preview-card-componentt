@@ -61,7 +61,7 @@ main .card {
   gap: 2rem;
   background: hsl(0deg, 0%, 100%);
   border-radius: 10px;
-  margin: 8.5rem auto;
+  margin: 10rem auto;
 }
 main .card .img1 {
   background-image: url(../images/image-product-desktop.jpg);
